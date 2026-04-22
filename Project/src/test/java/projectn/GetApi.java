@@ -20,6 +20,7 @@ public class GetApi {
 		.get()
 		.then()
 		.log().all()
-		.statusCode(200);
+		.statusCode(200)
+		.header(DEFAULT_BODY_ROOT_PATH, isEmptyOrNullString());
 	}
 }

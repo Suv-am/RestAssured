@@ -1,0 +1,7 @@
+<suite name="RestAssured Suite">
+<test name="API Test">
+<classes>
+<class name = "projectn.GetApi"></class>
+</classes>
+</test>
+</suite>
